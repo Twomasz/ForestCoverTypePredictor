@@ -20,3 +20,7 @@ http://127.0.0.1:80/neural-network-prediction
 ```
 ...and post JSON file with forest features\
 (look at 'data/sampleFeatures.json' format)
+
+### WARNING!
+To use random forest or kNN classifiers regenerate models with my scripts.\
+Models in this repo were train with other parameters, because files on GitHub must be smaller (less than 100MB)
