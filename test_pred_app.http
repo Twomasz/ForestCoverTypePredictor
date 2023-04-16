@@ -1,0 +1,34 @@
+# Test your FastAPI endpoints
+
+GET http://127.0.0.1:80/
+Accept: application/json
+
+###
+
+POST http://127.0.0.1:80/simple-heuristic-prediction
+Content-Type: application/json
+
+< ./data/sampleFeatures.json
+
+###
+
+POST http://127.0.0.1:80/nearest-neighbors-prediction
+Content-Type: application/json
+
+< ./data/sampleFeatures.json
+
+###
+
+POST http://127.0.0.1:80/random-forest-prediction
+Content-Type: application/json
+
+< ./data/sampleFeatures.json
+
+###
+
+POST http://127.0.0.1:80/neural-network-prediction
+Content-Type: application/json
+
+< ./data/sampleFeatures.json
+
+###
